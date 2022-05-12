@@ -280,6 +280,7 @@ def main(cmd_opt):
 
 
 if __name__ == '__main__':
+  print(ROOT_DIR)
   parser = argparse.ArgumentParser()
   parser.add_argument('--use_cora_defaults', action='store_true',
                       help='Whether to run with best params for cora. Overrides the choice of dataset')
