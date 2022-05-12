@@ -11,7 +11,7 @@ from torch import nn
 import numpy as np
 from sklearn.preprocessing import normalize
 
-from data import get_dataset
+from src.data import get_dataset
 from function_laplacian_diffusion import LaplacianODEFunc
 from GNN import GNN
 from block_constant import ConstantODEblock

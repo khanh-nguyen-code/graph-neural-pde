@@ -15,7 +15,7 @@ import torch_sparse
 from torch_geometric.utils import softmax, to_dense_adj
 
 from function_transformer_attention import SpGraphTransAttentionLayer, ODEFuncTransformerAtt
-from data import get_dataset
+from src.data import get_dataset
 from test_params import OPT
 from utils import ROOT_DIR
 

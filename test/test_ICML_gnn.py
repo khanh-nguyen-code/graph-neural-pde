@@ -17,7 +17,7 @@ from ray.tune.utils import diagnose_serialization
 from functools import partial
 
 from CGNN import gcn_norm_fill_val, coo2tensor, train_ray
-from data import get_dataset
+from src.data import get_dataset
 from test_params import OPT
 
 

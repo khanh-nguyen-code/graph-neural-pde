@@ -12,7 +12,7 @@ import torch
 from torch import tensor
 from torch import nn
 
-from data import get_dataset
+from src.data import get_dataset
 from function_laplacian_diffusion import LaplacianODEFunc
 from GNN_early import GNNEarly
 from block_constant import ConstantODEblock

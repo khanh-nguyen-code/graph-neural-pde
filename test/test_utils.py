@@ -9,7 +9,7 @@ import unittest
 import torch
 from torch import tensor
 from torch import nn
-from data import get_dataset
+from src.data import get_dataset
 from torch_geometric.data import Data
 from torch_geometric.utils import to_dense_adj
 import numpy as np
